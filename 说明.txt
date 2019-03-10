@@ -1,0 +1,23 @@
+auto_bin.py
+自定义函数，用于最优分箱，建议先不使用，作为参考自行尝试解决分箱问题
+
+data/CreditFirstUse.csv
+用户订单时间表，字段为：
+用户ID, 用户订单时间
+
+data/CreditSampleWindow.csv
+用户逾期详情表，字段为：
+用户ID, 本阶段前的逾期阶段, 本阶段进入的逾期阶段, 进入本阶段时间, 本阶段结束时间
+
+其中：逾期阶段含义为：
+M0: 逾期 0-3 天
+M1: 逾期 3-30 天
+M2: 逾期 30-60 天
+M3: 逾期 60-90 天
+，以此类推 
+
+data/cs-training.csv
+用户申请信息表
+
+data/Data Dictionary.xls
+cs-training.csv 数据字典
